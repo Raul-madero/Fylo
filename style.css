@@ -17,6 +17,13 @@ html {
 body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
+a:hover {
+    cursor: pointer;
+    color: var(--primaryDesaturatedBlue);
+}
+button:hover {
+    cursor: pointer;
+}
 header {
     display: flex;
     flex-direction: row;
@@ -39,6 +46,9 @@ header img {
     text-decoration: none;
     color: var(--primaryDarkBlue);
     font-size: 1.2rem;
+}
+.main-nav .item a:hover {
+    color: var(--primaryDesaturatedBlue);
 }
 .first-section {
     display: flex;
@@ -92,6 +102,9 @@ header img {
     font-weight: 700;
     margin: 1rem 0 1.6rem 0;
 }
+.desktop-curve {
+    display: none;
+}
 .mobile-curve {
     margin-top: 8rem;
     width: 100%;
@@ -135,6 +148,9 @@ header img {
     font-weight: 400;
     border-bottom: .1rem solid var(--accentModerateCyan);
     padding-bottom: 1rem;
+}
+.second-section .productive-info a:hover {
+    color: var(--primaryDesaturatedBlue);
 }
 .second-section .productive-info a img {
     width: 2rem;
@@ -270,6 +286,9 @@ header img {
     font-size: 1.6rem;
     margin-bottom: 2rem;
 }
+.main-footer .footer-container .logo-nav ul li a:hover {
+    color: var(--primaryDesaturatedBlue);
+}
 .main-footer .footer-container .logo-nav ul li a img {
     margin: 0 2rem -.4rem 0;
 }
@@ -280,10 +299,14 @@ header img {
     list-style: none;
     margin-bottom: 2rem;
 }
-.main-footer .footer-container .about-nav ul li {
+.main-footer .footer-container .about-nav ul li a {
     margin-bottom: 2rem;
     font-size: 1.6rem;
     color: var(--neutralLightGrayishBlue);
+    text-decoration: none;
+}
+.main-footer .footer-container .about-nav ul li a:hover {
+    color: var(--primaryDesaturatedBlue);
 }
 .main-footer .footer-container .contact-nav {
     margin-top: 4rem;
@@ -292,10 +315,14 @@ header img {
     list-style: none;
     margin-bottom: 2rem;
 }
-.main-footer .footer-container .contact-nav ul li {
+.main-footer .footer-container .contact-nav ul li a {
     margin-bottom: 2rem;
     font-size: 1.6rem;
     color: var(--neutralLightGrayishBlue);
+    text-decoration: none;
+}
+.main-footer .footer-container .contact-nav ul li a:hover {
+    color: var(--primaryDesaturatedBlue);
 }
 .attribution { font-size: 11px; text-align: center; color: var(--neutralLightGrayishBlue);}
 .attribution a { color: hsl(228, 45%, 44%); }
